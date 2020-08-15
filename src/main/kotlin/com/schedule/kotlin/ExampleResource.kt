@@ -24,7 +24,7 @@ class ExampleResource {
 
         try {
             if (response.isEmpty())
-                return Response.noContent().entity("nada").build()
+                return Response.noContent().build()
             return Response.ok(response).build()
         } catch (e: ApplicationException) {
             return Response.serverError().build()
