@@ -1,0 +1,12 @@
+quarkus:
+  datasource:
+    db-kind: mysql
+    username: gesuvs
+    password: 968778
+    jdbc:
+      url: jdbc:mysql://localhost:3306/black_yellow
+  hibernate-orm:
+    database:
+      generation: none
+
+#      insert into User (login, password) values ('Gui','1234');
